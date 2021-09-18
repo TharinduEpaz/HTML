@@ -1,24 +1,28 @@
-#hero{
-height :50%;
-width :50%;
-margin : 0px 10px;
-float:right;
-padding: 20px 40px;
-}
-
 .homes{
     margin: 2% 5%;
 }
 
+.tag-highlighted{
+    background-color: #f0f0f0;
+}
+
+#hero{
+    height :50%;
+    width :50%;
+    margin : 0px 10px;
+    float:right;
+    padding: 20px 40px;
+    }
+
 #button:link, #button:visited {
-background-color: #FF8C42;
-color: black;
-font-size: 15px;
-padding: 15px 25px;
-text-align: center;
-display: inline-block;
-border-radius: 12px;
-text-decoration: none;
+    background-color: #FF8C42;
+    color: black;
+    font-size: 15px;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    text-decoration: none;
 }
 
 #button:hover, #button:active {
@@ -28,8 +32,9 @@ text-decoration: none;
     transition: all 0.5s ease-in-out;
 }
 
-.tag-highlighted{
-    background-color: #f0f0f0c7;
+#hometext{
+    font-size:70px;
+    font-weight:lighter;
 }
 
 p{ 
@@ -37,10 +42,6 @@ p{
     margin-bottom: 40px ;
 }
 
-#hometext{
-    font-size:70px;
-    font-weight:lighter;
-}
 
 @media screen and (max-width: 800px){      
     #hero{
